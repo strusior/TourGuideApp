@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguideapp.MainActivity">
+
+    <TextView
+        android:id="@+id/streets_button"
+        style="@style/FeatureStyle"
+        android:background="@color/streets"
+        android:text="@string/streets_button_text"
+        />
+
+    <TextView
+        android:id="@+id/green_areas_button"
+        style="@style/FeatureStyle"
+        android:background="@color/green_areas"
+        android:text="@string/green_areas_button_text" />
+
+    <TextView
+        android:id="@+id/historical_sites"
+        style="@style/FeatureStyle"
+        android:background="@color/historic_sites"
+        android:text="@string/historical_sites_text" />
+
+    <TextView
+        android:id="@+id/other_sites"
+        style="@style/FeatureStyle"
+        android:background="@color/other_sites"
+        android:text="@string/other_sites_text" />
+
+</LinearLayout>

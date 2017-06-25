@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004242</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="streets">#A0522D</color>
+    <color name="green_areas">#D2691E</color>
+    <color name="historic_sites">#B8860B</color>
+    <color name="other_sites">#ffa000</color>
+</resources>
